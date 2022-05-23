@@ -1,0 +1,12 @@
+.divImagens {
+    display: flex;
+    width: 80vw;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: blueviolet;
+
+
+}

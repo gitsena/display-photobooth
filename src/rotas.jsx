@@ -1,7 +1,8 @@
 import React from "react";
-import Display from "./pages/display";
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PaginaFotos from "./pages/PaginaFotos";
 
 function Rotas() {
     return (
@@ -9,7 +10,7 @@ function Rotas() {
             <BrowserRouter>
 
             <Routes>
-                <Route path="/" element={<Display />}/>
+                <Route path="/" element={<PaginaFotos />}/>
             </Routes>
 
             </BrowserRouter>
