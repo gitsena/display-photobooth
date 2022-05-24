@@ -1,4 +1,5 @@
 import Foto from '../../components/Foto';
+import Logo from '../../components/Foto/itemLogo';
 import './style.css'
 import imagem012 from "../../display-template/images/012.jpg";
 import imagem013 from "../../display-template/images/013.jpg";
@@ -14,11 +15,15 @@ import imagem024 from "../../display-template/images/024.jpg";
 import imagem025 from "../../display-template/images/025.jpg";
 import imagem026 from "../../display-template/images/026.jpg";
 import imagemFrida from "../../display-template/images/Frida.jpg";
+import imagemLogo from "../../display-template/images/logo-AI.png";
 
 const PaginaFotos = () => {
 
     return (
         <div className='divDisplay'>
+            <div className='div3'>
+            <Logo linkImagem={imagemLogo} ></Logo>
+            </div>
             <div className='div1'>
             <Foto linkImagem={imagem012}></Foto>
             <Foto linkImagem={imagem013}></Foto>
