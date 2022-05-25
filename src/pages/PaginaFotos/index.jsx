@@ -21,18 +21,50 @@ const PaginaFotos = () => {
 
     return (
         <div className='divDisplay'>
+            
             <div className='div3'>
             <Logo linkImagem={imagemLogo} ></Logo>
             </div>
+
             <div className='div1'>
+
             <Foto linkImagem={imagem012}></Foto>
-            <Foto linkImagem={imagem013}></Foto>
-            <Foto linkImagem={imagem014}></Foto>
-            <Foto linkImagem={imagem017}></Foto>
-            <Foto linkImagem={imagem026}></Foto>
-            <Foto linkImagem={imagem018}></Foto>
-            <Foto linkImagem={imagemFrida}></Foto>
+            <div className='texto1'>
+            O texto entra aqui…
             </div>
+
+            <Foto linkImagem={imagem013}></Foto>
+            <div className='texto2'>
+            O texto entra aqui…
+            </div>
+
+            <Foto linkImagem={imagem014}></Foto>
+            <div className='texto3'>
+            O texto entra aqui…
+            </div>
+
+            <Foto linkImagem={imagem017}></Foto>
+            <div className='texto4'>
+            O texto entra aqui…
+            </div>
+
+            <Foto linkImagem={imagem026}></Foto>
+            <div className='texto5'>
+            O texto entra aqui…
+            </div>
+
+            <Foto linkImagem={imagem018}></Foto>
+            <div className='texto6'>
+            O texto entra aqui…
+            </div>
+
+            <Foto linkImagem={imagemFrida}></Foto>
+            <div className='texto7'>
+            O texto entra aqui…
+            </div>
+
+            </div>
+
             <div className='div2'>
             <Foto linkImagem={imagem019}></Foto>
             <Foto linkImagem={imagem020}></Foto>
