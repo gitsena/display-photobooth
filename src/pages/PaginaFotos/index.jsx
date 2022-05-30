@@ -21,58 +21,78 @@ const PaginaFotos = () => {
 
     return (
         <div className='divDisplay'>
-            
+
             <div className='div3'>
-            <Logo linkImagem={imagemLogo} ></Logo>
+                <Logo linkImagem={imagemLogo} ></Logo>
             </div>
 
             <div className='div1'>
-
-            <Foto linkImagem={imagem012}></Foto>
-            <div className='texto1'>
-            O texto entra aqui…
-            </div>
-
-            <Foto linkImagem={imagem013}></Foto>
-            <div className='texto2'>
-            O texto entra aqui…
-            </div>
-
-            <Foto linkImagem={imagem014}></Foto>
-            <div className='texto3'>
-            O texto entra aqui…
-            </div>
-
-            <Foto linkImagem={imagem017}></Foto>
-            <div className='texto4'>
-            O texto entra aqui…
-            </div>
-
-            <Foto linkImagem={imagem026}></Foto>
-            <div className='texto5'>
-            O texto entra aqui…
-            </div>
-
-            <Foto linkImagem={imagem018}></Foto>
-            <div className='texto6'>
-            O texto entra aqui…
-            </div>
-
-            <Foto linkImagem={imagemFrida}></Foto>
-            <div className='texto7'>
-            O texto entra aqui…
-            </div>
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem012} ></Foto>
+                </div>
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem013}></Foto>
+                </div>
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem014}></Foto>
+                </div>
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem017}></Foto>
+                </div>
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem026}></Foto>
+                </div>
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem018}></Foto>
+                </div>
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagemFrida}></Foto>
+                </div>
 
             </div>
 
             <div className='div2'>
-            <Foto linkImagem={imagem019}></Foto>
-            <Foto linkImagem={imagem020}></Foto>
-            <Foto linkImagem={imagem021}></Foto>
-            <Foto linkImagem={imagem022}></Foto>
-            <Foto linkImagem={imagem023}></Foto>
-            <Foto linkImagem={imagem024}></Foto>
-            <Foto linkImagem={imagem025}></Foto>
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem019}></Foto>
+                </div>
+                
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem020}></Foto>
+                </div>
+
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem021}></Foto>
+                </div>
+
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem022}></Foto>
+                </div>
+
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem023}></Foto>
+                </div>
+
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem024}></Foto>
+                </div>
+
+                <div className='texto'>
+                    O texto entra aqui…
+                    <Foto linkImagem={imagem025}></Foto>
+                </div>
             </div>
         </div>
     )
