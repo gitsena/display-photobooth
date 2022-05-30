@@ -28,31 +28,38 @@ const PaginaFotos = () => {
 
             <div className='div1'>
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Wassily Kandinsky,<br />
+                    Composição VII 1913
                     <Foto linkImagem={imagem012} ></Foto>
                 </div>
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Kanagawa Hokusai,<br />
+                    A Grande Onda 1830
                     <Foto linkImagem={imagem013}></Foto>
                 </div>
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor desconhecido, <br />
+                    Pilares da Criação 1995
                     <Foto linkImagem={imagem014}></Foto>
                 </div>
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Van Gogh<br />
+                    Noite Estrelada,1889
                     <Foto linkImagem={imagem017}></Foto>
                 </div>
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Amadeo de Souza<br />
+                    Figura Negra, 1915
                     <Foto linkImagem={imagem026}></Foto>
                 </div>
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Edward Munch<br />
+                    O Grito, 1893
                     <Foto linkImagem={imagem018}></Foto>
                 </div>
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Frida Kablo<br />
+                    Roots, 1943
                     <Foto linkImagem={imagemFrida}></Foto>
                 </div>
 
@@ -60,37 +67,44 @@ const PaginaFotos = () => {
 
             <div className='div2'>
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Pablo Picasso<br />
+                    Senhoras de Avignon, 1907
                     <Foto linkImagem={imagem019}></Foto>
                 </div>
-                
+
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Pablo Picasso<br />
+                    Man With a Violin, 1912
                     <Foto linkImagem={imagem020}></Foto>
                 </div>
 
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Pablo Picasso<br />
+                    Still Life, 1911
                     <Foto linkImagem={imagem021}></Foto>
                 </div>
 
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Desconhecido<br />
+                    Uma Faisca no Escuro
                     <Foto linkImagem={imagem022}></Foto>
                 </div>
 
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Gyula Derkovits<br />
+                    Woman Head, 1922
                     <Foto linkImagem={imagem023}></Foto>
                 </div>
 
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Amadeo de Souza<br />
+                    Still Life, 1913
                     <Foto linkImagem={imagem024}></Foto>
                 </div>
 
                 <div className='texto'>
-                    O texto entra aqui…
+                    Autor Gyulia Derkovits<br />
+                    Wheelbarrow, 1920
                     <Foto linkImagem={imagem025}></Foto>
                 </div>
             </div>
