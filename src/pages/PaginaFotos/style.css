@@ -1,35 +1,46 @@
+.divRoot {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Graphik Web", Arial, sans-serif;
+  background: linear-gradient(45deg, #5680E9, #8860d0, #5AB9EA, #8860d0, #8860d0);
+  background-size: 300% 300%;
+}
+
 .divDisplay {
   display: flex;
-  /* width: 100vw; */
+  width: 100vw;
   height: 100vh;
-  flex-direction: column;
   align-items: center;
-  background-color: black;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-evenly;
 
 }
 
 .div1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 95%;
+  /* justify-content: space-between; */
+  width: 90%;
 }
 
 .div2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 95%;
+  /* justify-content: space-between; */
+  width: 90%;
 }
 
 .div3 {
-  height: 11vh;
-  width: 100vw;
+  height: 15vh;
+  width: 21vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin: -7%;
+
 }
 
 .divDisplay .texto {
@@ -37,6 +48,14 @@
   color: #fff;
   text-align: left;
   line-height: 16px;
-  font-size: small;
+  font-size: 11px;
+  height: 150px;
+  width: 150px;
 }
 
+.titulo {
+  color: white;
+  font-size: xx-large;
+  margin-bottom: -6%;
+  margin-top: -8%;
+}

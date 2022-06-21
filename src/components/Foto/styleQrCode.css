@@ -1,5 +1,26 @@
-.divDisplay .imgFotoQRCode {
-    width:  45%;
-    height: 100%;
-    background-size: 30%;
+.divCode .imgFotoQRCode {
+    width: 192px;
+    height: 192px;
+}
+
+
+.divCode {
+    display: flex;
+    width: 25%;
+    height: 65%;
+    /* background-size: 28%; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textoCode {
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: x-large;
+    height: 290px;
+    width: 245px;
+    align-items: center;
+    justify-items: center;
 }

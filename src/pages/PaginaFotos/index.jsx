@@ -22,94 +22,106 @@ import qrCode from "../../display-template/images/qr-code.png";
 const PaginaFotos = () => {
 
     return (
-        <div className='divDisplay'>
-            <div className='div3'>
-                <Logo linkImagem={imagemLogo} ></Logo>
+        <div className='divRoot'>
+
+            <div className='divDisplay'>
+
+                <div className='div3'>
+                    <Logo linkImagem={imagemLogo} ></Logo>
+                </div>
+
+                <div className='div1'>
+                    <div className='texto'>
+                        Autor Wassily Kandinsky,<br />
+                        Composição VII 1913
+                        <Foto linkImagem={imagem012} ></Foto>
+                    </div>
+                    <div className='texto'>
+                        Autor Kanagawa Hokusai,<br />
+                        A Grande Onda 1830
+                        <Foto linkImagem={imagem013}></Foto>
+                    </div>
+                    <div className='texto'>
+                        Autor desconhecido, <br />
+                        Pilares da Criação 1995
+                        <Foto linkImagem={imagem014}></Foto>
+                    </div>
+                    <div className='texto'>
+                        Autor Van Gogh<br />
+                        Noite Estrelada,1889
+                        <Foto linkImagem={imagem017}></Foto>
+                    </div>
+                    <div className='texto'>
+                        Autor Amadeo de Souza<br />
+                        Figura Negra, 1915
+                        <Foto linkImagem={imagem026}></Foto>
+                    </div>
+                    <div className='texto'>
+                        Autor Edward Munch<br />
+                        O Grito, 1893
+                        <Foto linkImagem={imagem018}></Foto>
+                    </div>
+                    <div className='texto'>
+                        Autor Frida Kablo<br />
+                        Roots, 1943
+                        <Foto linkImagem={imagemFrida}></Foto>
+                    </div>
+
+                </div>
+
+                <div className='div2'>
+                    <div className='texto'>
+                        Autor Pablo Picasso<br />
+                        Senhoras de Avignon, 1907
+                        <Foto linkImagem={imagem019}></Foto>
+                    </div>
+
+                    <div className='texto'>
+                        Autor Pablo Picasso<br />
+                        Man With a Violin, 1912
+                        <Foto linkImagem={imagem020}></Foto>
+                    </div>
+
+                    <div className='texto'>
+                        Autor Pablo Picasso<br />
+                        Still Life, 1911
+                        <Foto linkImagem={imagem021}></Foto>
+                    </div>
+
+                    <div className='texto'>
+                        Autor Desconhecido<br />
+                        Uma Faisca no Escuro
+                        <Foto linkImagem={imagem022}></Foto>
+                    </div>
+
+                    <div className='texto'>
+                        Autor Gyula Derkovits<br />
+                        Woman Head, 1922
+                        <Foto linkImagem={imagem023}></Foto>
+                    </div>
+
+                    <div className='texto'>
+                        Autor Amadeo de Souza<br />
+                        Still Life, 1913
+                        <Foto linkImagem={imagem024}></Foto>
+                    </div>
+
+                    <div className='texto'>
+                        Autor Gyulia Derkovits<br />
+                        Wheelbarrow, 1920
+                        <Foto linkImagem={imagem025}></Foto>
+                    </div>
+                </div>
             </div>
 
-            <div className='div1'>
-                <div className='texto'>
-                    Autor Wassily Kandinsky,<br />
-                    Composição VII 1913
-                    <Foto linkImagem={imagem012} ></Foto>
-                </div>
-                <div className='texto'>
-                    Autor Kanagawa Hokusai,<br />
-                    A Grande Onda 1830
-                    <Foto linkImagem={imagem013}></Foto>
-                </div>
-                <div className='texto'>
-                    Autor desconhecido, <br />
-                    Pilares da Criação 1995
-                    <Foto linkImagem={imagem014}></Foto>
-                </div>
-                <div className='texto'>
-                    Autor Van Gogh<br />
-                    Noite Estrelada,1889
-                    <Foto linkImagem={imagem017}></Foto>
-                </div>
-                <div className='texto'>
-                    Autor Amadeo de Souza<br />
-                    Figura Negra, 1915
-                    <Foto linkImagem={imagem026}></Foto>
-                </div>
-                <div className='texto'>
-                    Autor Edward Munch<br />
-                    O Grito, 1893
-                    <Foto linkImagem={imagem018}></Foto>
-                </div>
-                <div className='texto'>
-                    Autor Frida Kablo<br />
-                    Roots, 1943
-                    <Foto linkImagem={imagemFrida}></Foto>
-                </div>
+            <div className='divCode'>
 
-            </div>
-
-            <div className='div2'>
-                <div className='texto'>
-                    Autor Pablo Picasso<br />
-                    Senhoras de Avignon, 1907
-                    <Foto linkImagem={imagem019}></Foto>
-                </div>
-
-                <div className='texto'>
-                    Autor Pablo Picasso<br />
-                    Man With a Violin, 1912
-                    <Foto linkImagem={imagem020}></Foto>
-                </div>
-
-                <div className='texto'>
-                    Autor Pablo Picasso<br />
-                    Still Life, 1911
-                    <Foto linkImagem={imagem021}></Foto>
-                </div>
-
-                <div className='texto'>
-                    Autor Desconhecido<br />
-                    Uma Faisca no Escuro
-                    <Foto linkImagem={imagem022}></Foto>
-                </div>
-
-                <div className='texto'>
-                    Autor Gyula Derkovits<br />
-                    Woman Head, 1922
-                    <Foto linkImagem={imagem023}></Foto>
-                </div>
-
-                <div className='texto'>
-                    Autor Amadeo de Souza<br />
-                    Still Life, 1913
-                    <Foto linkImagem={imagem024}></Foto>
-                </div>
-
-                <div className='texto'>
-                    Autor Gyulia Derkovits<br />
-                    Wheelbarrow, 1920
-                    <Foto linkImagem={imagem025}></Foto>
+                <div className='textoCode'>Entre em nosso site<br />usando o QR code
+                    <QRCode linkImagem={qrCode} ></QRCode>
                 </div>
             </div>
         </div>
+
     )
 }
 
