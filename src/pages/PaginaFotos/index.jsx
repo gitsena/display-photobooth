@@ -17,7 +17,7 @@ import imagem025 from "../../display-template/images/025.jpg";
 import imagem026 from "../../display-template/images/026.jpg";
 import imagemFrida from "../../display-template/images/Frida.jpg";
 import imagemLogo from "../../display-template/images/logo-AI.png";
-import qrCode from "../../display-template/images/qr-code.png";
+import qrCode from "../../display-template/images/new-qr-code.png";
 
 const PaginaFotos = () => {
 
